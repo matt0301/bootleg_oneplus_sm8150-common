@@ -200,6 +200,9 @@ PRODUCT_SOONG_NAMESPACES += \
     $(VENDOR_PATH) \
     device/oneplus/common
 
+# Surfaceflinger
+TARGET_USES_AOSP_SURFACEFLINGER := true
+
 # Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
