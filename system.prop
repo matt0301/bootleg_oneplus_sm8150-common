@@ -7,6 +7,9 @@ ro.audio.monitorRotation=true
 bt.max.hfpclient.connections=1
 vendor.bluetooth.soc=cherokee
 
+# Build fingerprint
+ro.build.fingerprint=OnePlus/OnePlus7T/OnePlus7T:10/QKQ1.190716.003/2003271900:user/release-keys
+
 # Camera
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.oneplus.factorymode,com.oneplus.camera,com.oneplus.healthcheck
 
