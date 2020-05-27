@@ -488,4 +488,6 @@
     <!-- default refresh rate in the zone defined by brightness and ambient thresholds -->
     <integer name="config_defaultRefreshRateInZone">90</integer>
 
+    <!-- Whether device has WARP charging support -->
+    <bool name="config_hasDashCharger">true</bool>
 </resources>
