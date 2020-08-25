@@ -235,7 +235,7 @@ Return<void> FingerprintInscreen::setLongPressEnabled(bool enabled) {
 
 Return<int32_t> FingerprintInscreen::getDimAmount(int32_t brightness) {
     int realBrightness = brightness * 1023 / 255;
-    int dimAmount = brightness_to_alpha(realBrightness);
+    int dimAmount = (brightness_to_alpha(realBrightness) * 70) / 100;
 
     LOG(INFO) << "dimAmount = " << dimAmount;
 
