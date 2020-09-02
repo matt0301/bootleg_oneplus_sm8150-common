@@ -77,6 +77,9 @@ vendor.display.disable_inline_rotator=1
 vendor.display.disable_scaler=0
 vendor.display.enable_null_display=0
 
+# Disable mask layer(FOD)
+vendor.display.disable_mask_layer_hint=1
+
 # DRM
 drm.service.enabled=true
 
