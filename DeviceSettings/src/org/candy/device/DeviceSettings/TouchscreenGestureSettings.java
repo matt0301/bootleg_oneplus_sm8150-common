@@ -34,8 +34,8 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceFragment;
 import androidx.preference.PreferenceManager;
 
-import com.android.internal.candy.hardware.LineageHardwareManager; // Need FWB support
-import com.android.internal.candy.hardware.TouchscreenGesture; // Need FWB support
+import com.android.internal.bootleggers.hardware.LineageHardwareManager; // Need FWB support
+import com.android.internal.bootleggers.hardware.TouchscreenGesture; // Need FWB support
 
 import org.candy.device.DeviceSettings.R;
 
